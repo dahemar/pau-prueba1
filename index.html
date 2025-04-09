@@ -8,7 +8,12 @@
   ar 
   shadow-intensity="1" 
   camera-controls 
-  touch-action="pan-y">
+  touch-action="pan-y"
+  loading="eager"
+  poster="poster.webp">
+  <div slot="error" style="background-color: white; color: red; padding: 20px;">
+    ¡Error al cargar el modelo 3D!
+  </div>
 </model-viewer>
 
 <style>
