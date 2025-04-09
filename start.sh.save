@@ -1,0 +1,6 @@
+#!/bin/bash
+# Cambia al directorio del proyecto
+cd /Users/david/Documents/GitHub/pau-prueba1
+# Inicia el servidor local
+python3 -m http.server
+
